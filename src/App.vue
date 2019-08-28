@@ -1,51 +1,93 @@
 <template>
   <div id="app">
-    <home-page />
-    <div class>
-      <p v-on:click="setViewMe()">About Me</p>
+    <div>
+      <h1>Kyle Johnston</h1>
     </div>
-    <about-me />
-    <experience />
-    <projects />
-    <p v-on:click="test('contact')">Contact Me!</p>
-    <contact-me v-if="contactView"/>
+    <div>
+      <nav-bar />
+    </div>
+    <div id="divider_bar"></div>
+    <div>
+      <home-page v-if="homeView" :skills="skills"/>
+      <experience v-if="experienceView" />
+      <projects v-if="projectView" />
+      <contact-me v-if="contactView" />
+    </div>
   </div>
 </template>
 
 <script>
 import HomePage from "./components/HomePage.vue";
-import AboutMe from "./components/AboutMe.vue";
 import Projects from "./components/Projects.vue";
 import Experience from "./components/Experience.vue";
 import ContactMe from "./components/ContactMe.vue";
+import NavBar from "./components/NavBar.vue";
 import EventBus from "./Eventbus.js";
 
 export default {
   name: "app",
   components: {
     HomePage,
-    AboutMe,
     ContactMe,
     Experience,
-    Projects
+    Projects,
+    NavBar
   },
   data() {
     return {
+      homeView: true,
       projectView: false,
       contactView: false,
       experienceView: false,
-      AboutView: false
-    };
+      skills: [
+        {'name': 'C#'},
+        {'name': 'Java'},
+        {'name': 'React.JS'},
+        {'name': 'Vue.JS'},
+        {'name': 'Spring'},
+        {'name': 'Node.JS'},
+        {'name': 'MongoDB'},
+        {'name': 'PostgreSQL'},
+        {'name': 'JavaScript'},
+        {'name': 'Git/GitHub'},
+        {'name': 'RESTful routes'}
+        ]
+      }
+  },
+  mounted() {
+    EventBus.$on("changeView", choice => {
+      this.viewSet(choice);
+    });
   },
   methods: {
-    setViewMe() {
-      EventBus.$emit("viewMe");
-    },
-    test(view){
-      if (view === 'contact') {
-        this.contactView = true
+    viewSet(choice) {
+      if (choice === "home") {
+        this.projectView = false;
+        this.contactView = false;
+        this.experienceView = false;
+
+        this.homeView = true;
       }
-      
+      if (choice === "experience") {
+        this.projectView = false;
+        this.contactView = false;
+        this.experienceView = true;
+
+        this.homeView = false;
+      }
+      if (choice === "projects") {
+        this.projectView = true;
+        this.contactView = false;
+        this.experienceView = false;
+
+        this.homeView = false;
+      }
+      if (choice === "contact") {
+        this.projectView = false;
+        this.contactView = true;
+        this.experienceView = false;
+        this.homeView = false;
+      }
     }
   }
 };
@@ -58,5 +100,9 @@ export default {
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
+}
+
+#divider_bar {
+  border: 1px, solid, black
 }
 </style>

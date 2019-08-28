@@ -6,8 +6,7 @@
 
 <script>
 export default {
-  name: "Experience",
-  props: {}
+  name: "Experience"
 };
 </script>
 
