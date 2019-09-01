@@ -3,10 +3,8 @@
     <div>
       <h1>Kyle Johnston</h1>
     </div>
-    <div>
       <nav-bar />
-    </div>
-    <div id="divider_bar"></div>
+    
     <div>
       <home-page v-if="homeView" :skills="skills"/>
       <experience v-if="experienceView" />
@@ -49,8 +47,11 @@ export default {
         {'name': 'MongoDB'},
         {'name': 'PostgreSQL'},
         {'name': 'JavaScript'},
-        {'name': 'Git/GitHub'},
-        {'name': 'RESTful routes'}
+        {'name': 'Git'},
+        {'name': 'RESTful routes'},
+        {'name': 'UX'},
+        {'name': 'Selenium'},
+        {'name': 'API Design'}
         ]
       }
   },
@@ -65,21 +66,18 @@ export default {
         this.projectView = false;
         this.contactView = false;
         this.experienceView = false;
-
         this.homeView = true;
       }
       if (choice === "experience") {
         this.projectView = false;
         this.contactView = false;
         this.experienceView = true;
-
         this.homeView = false;
       }
       if (choice === "projects") {
         this.projectView = true;
         this.contactView = false;
         this.experienceView = false;
-
         this.homeView = false;
       }
       if (choice === "contact") {
@@ -95,14 +93,23 @@ export default {
 
 <style>
 #app {
-  font-family: "Avenir", Helvetica, Arial, sans-serif;
+  font-family: 'Archivo Narrow', Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
-  color: #2c3e50;
+  color: #66FCF1;
 }
 
-#divider_bar {
-  border: 1px, solid, black
+.divider_bar {
+  border-bottom: 1px solid silver;
+  margin: 0 28% 5px 28%;
+}
+
+body {
+ background-color: #0b0c10e0;
+}
+
+h1 {
+  font-size: 33px;
 }
 </style>
