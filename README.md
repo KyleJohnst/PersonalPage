@@ -1,6 +1,11 @@
 # portfolio_page
 
+## Overview
+Personal website for shameless self promotion
+
+
 ## Project setup
+If you'd like to use this for your own shameless self promotion.
 ```
 npm install
 ```
@@ -14,16 +19,3 @@ npm run serve
 ```
 npm run build
 ```
-
-### Run your tests
-```
-npm run test
-```
-
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
