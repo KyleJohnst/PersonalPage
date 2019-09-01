@@ -38,20 +38,62 @@ export default {
       contactView: false,
       experienceView: false,
       skills: [
-        {'name': 'C#'},
-        {'name': 'Java'},
-        {'name': 'React.JS'},
-        {'name': 'Vue.JS'},
-        {'name': 'Spring'},
-        {'name': 'Node.JS'},
-        {'name': 'MongoDB'},
-        {'name': 'PostgreSQL'},
-        {'name': 'JavaScript'},
-        {'name': 'Git'},
-        {'name': 'RESTful routes'},
-        {'name': 'UX'},
-        {'name': 'Selenium'},
-        {'name': 'API Design'}
+        {
+          'name': 'C#',
+          'img': 'https://cdn.iconscout.com/icon/free/png-256/c-sharp-2-569585.png'
+        },
+        {
+          'name': 'Java',
+          'img': 'https://cdn.iconscout.com/icon/free/png-256/java-43-569305.png'
+          },
+        {
+          'name': 'React.JS',
+          'img': 'https://cdn.iconscout.com/icon/free/png-256/react-4-1175110.png'
+          },
+        {
+          'name': 'Vue.JS',
+          'img': 'https://cdn.iconscout.com/icon/free/png-256/vue-282497.png'
+          },
+        {
+          'name': 'Spring',
+          'img': 'https://spring.io/img/homepage/icon-spring-framework.svg'
+          },
+        {
+          'name': 'Node.JS',
+          'img': 'https://cdn.iconscout.com/icon/free/png-256/node-js-3-1174937.png'
+          },
+        {
+          'name': 'MongoDB',
+          'img': 'https://cdn.iconscout.com/icon/free/png-256/mongodb-3-1175138.png'
+          },
+        {
+          'name': 'PostgreSQL',
+          'img': 'https://cdn.iconscout.com/icon/free/png-256/postgresql-9-1175120.png'
+          },
+        {
+          'name': 'JavaScript',
+          'img': 'https://cdn.iconscout.com/icon/free/png-256/javascript-23-1174949.png'
+        },
+        {
+          'name': 'Git',
+          'img': 'https://cdn.iconscout.com/icon/free/png-256/git-17-1175218.png'
+          },
+        {
+          'name': 'RESTful routes',
+          'img': 'https://cdn.iconscout.com/icon/premium/png-256-thumb/data-in-rest-1-1096809.png'
+          },
+        {
+          'name': 'UX',
+          'img': 'https://cdn.iconscout.com/icon/premium/png-256-thumb/ux-2-877450.png'
+          },
+        {
+          'name': 'Selenium',
+        'img': 'https://cdn.iconscout.com/icon/premium/png-256-thumb/selenium-2-570545.png'
+        },
+        {
+          'name': 'API Design',
+          'img': 'https://cdn.iconscout.com/icon/premium/png-256-thumb/api-1675146-1421517.png'
+          }
         ]
       }
   },

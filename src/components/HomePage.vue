@@ -15,7 +15,7 @@
       <div class="header">Technical Skills</div>
       <div class="section-content-grid">
         <div v-for="(skill, key) in skills" :key="key" class="grid-item">
-          <div class="skill_box">{{skill.name}}</div>
+          <div class="skill_box"><img class="skill_img" v-if="skill.img"  :src="skill.img" alt="">{{skill.name}}</div>
         </div>
       </div>
     </div>
@@ -70,5 +70,11 @@ export default {
   margin-top: 5px;
   padding: 5px;
   border: 1px solid #45A29E;
+}
+
+.skill_img {
+  width: 15px;
+  height: 15px;
+  padding-right: 2px;
 }
 </style>

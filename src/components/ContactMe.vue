@@ -18,6 +18,13 @@
           </a>
           <div>LinkedIn</div>
         </div>
+
+                <div class="contact_option">
+          <a href="https://github.com/KyleJohnst" target="_blank">
+            <img class="contact_img" src="../../public/github.png" alt="github logo" />
+          </a>
+          <div>Github</div>
+        </div>
       </div>
     </div>
   </div>
