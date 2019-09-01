@@ -5,7 +5,7 @@
     <div class="header">Overview</div>
     <div class="content_container">
       <div class="content">
-        Im highly driven individual with a keen interest in Tech and IT.
+        Im a highly driven individual with a keen interest in Tech and IT.
         As a problem solver at heart I excel at being immersed in challenges and problems that force me out of my comfort zone.
         Ability to work across the Full Stack with a preference to Front End Development.
         Along with a varied background in customer services, hospitality, marketing and public relations.
