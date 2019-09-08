@@ -39,5 +39,6 @@ export default {
 
 .link_holder:hover {
   border-bottom: 3px solid #45A29E;
+  cursor: pointer;
 }
 </style>

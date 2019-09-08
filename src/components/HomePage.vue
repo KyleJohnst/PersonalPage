@@ -22,7 +22,7 @@
     <div>
       <div class="header">More Info!</div>
       <div class="content_container">
-        <div class="content">Bilingual in English and Afrikaans. Full Drivers Licence. Avid tech Scuba Diver. Arial Photographer</div>
+        <div class="content">Bilingual in English and Afrikaans. Full Drivers Licence. Avid tech Scuba Diver. Aerial Photographer</div>
       </div>
     </div>
   </div>

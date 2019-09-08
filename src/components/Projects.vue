@@ -103,6 +103,7 @@ export default {
 
 .proj_link:hover {
   color: red;
+  cursor: pointer;
 }
 
 .proj_header {
