@@ -1,0 +1,44 @@
+[
+    {
+        "project_name": "Dive Tracker",
+        "stack": "Java, Spring, Postgres SQL, React, Hibernate, RESTful API, React-google-charts",
+        "description": "Personal project to create a web app to track and store dives. Includes graphs for dive visulisation and world maps showing all different sites. On going development",
+        "link": "https://github.com/KyleJohnst/DiveLogger"
+    },
+    {
+        "project_name": "Discord ChatBot",
+        "stack": "Node.JS, Discord.io, Discord",
+        "description": "Simple chat bot that plays Rock, Paper, Scissors, Lizard, Spock that interacts with discord server users. Hosted on Heroku.",
+        "link": "https://github.com/KyleJohnst/Discord_bot"
+    },
+    {
+        "project_name": "Remote Jobs Site",
+        "stack": "Express.JS, Vue.JS, External API, VueDraggable",
+        "description": "Remote jobs board fetching recently posted jobs on an external API and hosted on Heroku.",
+        "link": "https://github.com/KyleJohnst/JobsBoard"
+    },
+    {
+        "project_name": "DAN Reddit Bot",
+        "stack": "Python, Reddit API, PRAW, Heroku",
+        "description": "Reddit Bot built with python and praw that monitors a sub reddits ne posts API stream for medical question keywords and then responds with links to Diver Alert Networks.",
+        "link": "https://github.com/KyleJohnst/reddit_bot"
+    },
+    {
+        "project_name": "Hotel Manager",
+        "stack": "Java, Spring, Postgres SQL, React, Hibernate, RESTful API",
+        "description": "Group project Web App over 5 days to build a functional Hotel Management system, that allows the user to Create bookings with relational Java models storing them in an SQL database.",
+        "link": "https://github.com/KyleJohnst/ClanLodging"
+    },
+    {
+        "project_name": "Dashboard",
+        "stack": "Vue.js, CSS",
+        "description": "Basic interactive dashboard in Vue, with interactive side bars and drop down menus",
+        "link": "https://github.com/KyleJohnst/DashBoard"
+    },
+    {
+        "project_name": "Portfolio Site",
+        "stack": "Vue.js, CSS",
+        "description": "Personal portfolio website, this site.",
+        "link": "https://github.com/KyleJohnst/PersonalPage"
+    }
+]

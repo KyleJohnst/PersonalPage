@@ -15,14 +15,19 @@
       <div class="header">Technical Skills</div>
       <div class="section-content-grid">
         <div v-for="(skill, key) in skills" :key="key" class="grid-item">
-          <div class="skill_box"><img class="skill_img" v-if="skill.img"  :src="skill.img" alt="">{{skill.name}}</div>
+          <div class="skill_box">
+            <img class="skill_img" v-if="skill.img" :src="skill.img" alt />
+            {{skill.name}}
+          </div>
         </div>
       </div>
     </div>
     <div>
       <div class="header">More Info!</div>
       <div class="content_container">
-        <div class="content">Bilingual in English and Afrikaans. Full Drivers Licence. Avid tech Scuba Diver. Aerial Photographer</div>
+        <div
+          class="content"
+        >Bilingual in English and Afrikaans. Full Drivers Licence. Avid tech Scuba Diver. Aerial Photographer</div>
       </div>
     </div>
   </div>
@@ -39,7 +44,7 @@ export default {
 .header {
   margin: 10px 38% 10px 38%;
   padding-bottom: 5px;
-  border-bottom: 1px solid #45A29E;
+  border-bottom: 1px solid #45a29e;
 }
 
 .content_container {
@@ -47,7 +52,7 @@ export default {
   justify-content: center;
   margin: 0 20% 0 20%;
   padding: 5px;
-  color: #C5C6C7;
+  color: #c5c6c7;
 }
 
 .content {
@@ -69,10 +74,10 @@ export default {
 
 .skill_box {
   display: block;
-  color:  #C5C6C7;
+  color: #c5c6c7;
   margin-top: 5px;
   padding: 5px;
-  border: 1px solid #45A29E;
+  border: 1px solid #45a29e;
 }
 
 .skill_img {

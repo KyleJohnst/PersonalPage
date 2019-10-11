@@ -30,15 +30,15 @@ export default {
 }
 
 .link_holder {
-  background-color:#0b0c1000;
+  background-color: #0b0c1000;
   border-bottom: 3px solid #0b0c1057;
   margin: 0 8px 0 8px;
   padding: 14px;
-  color: #C5C6C7;
+  color: #c5c6c7;
 }
 
 .link_holder:hover {
-  border-bottom: 3px solid #45A29E;
+  border-bottom: 3px solid #45a29e;
   cursor: pointer;
 }
 </style>
