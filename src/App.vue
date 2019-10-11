@@ -1,5 +1,6 @@
 <template>
   <div id="app">
+    <a id="top"></a>
     <div>
       <h1>Kyle Johnston</h1>
     </div>

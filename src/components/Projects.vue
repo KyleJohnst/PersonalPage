@@ -1,13 +1,19 @@
 <template>
   <div>
+    
     <h3>Projects</h3>
     <div>Note:</div>
-    <div style="color: #c5c6c7; padding-bottom: 10px">Project names are links to their github repositories</div>
+    
+    <div
+      style="color: #c5c6c7; padding-bottom: 10px"
+    >Project names are links to their github repositories</div>
     <div class="divider_bar"></div>
     <div>
       <div class="proj_container">
         <div class="proj_left">
-          <a href="https://github.com/KyleJohnst/DiveLogger" class="proj_header" target="_blank"><div >Dive Tracker</div></a>
+          <a href="https://github.com/KyleJohnst/DiveLogger" class="proj_header" target="_blank">
+            <div>Dive Tracker</div>
+          </a>
           <div class="proj_stack">
             Java, Spring,
             Postgres SQL, React,
@@ -26,7 +32,9 @@
 
       <div class="proj_container">
         <div class="proj_left">
-          <a href="https://github.com/KyleJohnst/ClanLodging" class="proj_header" target="_blank"><div>Hotel Manager</div></a>
+          <a href="https://github.com/KyleJohnst/ClanLodging" class="proj_header" target="_blank">
+            <div>Hotel Manager</div>
+          </a>
           <div class="proj_stack">
             Java, Spring,
             Postgres SQL, React,
@@ -45,7 +53,9 @@
 
       <div class="proj_container">
         <div class="proj_left">
-          <a href="https://github.com/KyleJohnst/Discord_bot" class="proj_header" target="_blank"><div>Discord ChatBot</div></a>
+          <a href="https://github.com/KyleJohnst/Discord_bot" class="proj_header" target="_blank">
+            <div>Discord ChatBot</div>
+          </a>
           <div class="proj_stack">Node.JS, Discord.io, Discord</div>
         </div>
         <div
@@ -57,24 +67,49 @@
 
       <div class="proj_container">
         <div class="proj_left">
-          <a href="https://github.com/KyleJohnst/JobsBoard" class="proj_header" target="_blank"><div>Remote Jobs Site</div></a>
+          <a href="https://github.com/KyleJohnst/JobsBoard" class="proj_header" target="_blank">
+            <div>Remote Jobs Site</div>
+          </a>
           <div class="proj_stack">Express.JS, Vue.JS, External API, VueDraggable.</div>
         </div>
-        <div class="proj_desc">Remote jobs board fetching recently posted jobs on an external API
-           and hosted on Heroku. <a href="https://remotejobboard.herokuapp.com/" class="proj_link" target="_blank">See it here</a>
-           </div>
+        <div class="proj_desc">
+          Remote jobs board fetching recently posted jobs on an external API
+          and hosted on Heroku.
+          <a
+            href="https://remotejobboard.herokuapp.com/"
+            class="proj_link"
+            target="_blank"
+          >See it here</a>
+        </div>
       </div>
 
       <div class="skill_divider_bar"></div>
 
       <div class="proj_container">
         <div class="proj_left">
-          <a href="https://github.com/KyleJohnst/PersonalPage" class="proj_header" target="_blank"><div>Portfolio Site</div></a>
+          <a href="https://github.com/KyleJohnst/reddit_bot" class="proj_header" target="_blank">
+            <div>DAN Reddit Bot</div>
+          </a>
+          <div class="proj_stack">Python, Reddit API, PRAW, Heroku</div>
+        </div>
+        <div
+          class="proj_desc"
+        >Reddit Bot built with python and praw that monitors a sub reddits ne posts API stream for medical question keywords and then responds with links to Diver Alert Networks.</div>
+      </div>
+
+      <div class="skill_divider_bar"></div>
+
+      <div class="proj_container">
+        <div class="proj_left">
+          <a href="https://github.com/KyleJohnst/PersonalPage" class="proj_header" target="_blank">
+            <div>Portfolio Site</div>
+          </a>
           <div class="proj_stack">Vue.JS</div>
         </div>
         <div class="proj_desc">Personal portfolio website, this site.</div>
       </div>
     </div>
+    <a class="proj_header" href="#top">Jump to top of page</a>
   </div>
 </template>
 
@@ -98,7 +133,7 @@ export default {
 
 .proj_link {
   text-decoration: none;
-  color: #66FCF1
+  color: #66fcf1;
 }
 
 .proj_link:hover {
@@ -111,7 +146,7 @@ export default {
   padding-bottom: 5px;
   font-weight: bold;
   text-decoration: none;
-  color: #66FCF1;
+  color: #66fcf1;
 }
 
 .proj_header:hover {
@@ -136,6 +171,4 @@ export default {
   border-bottom: 1px solid #45a29e;
   margin: 0 25% 5px 25%;
 }
-
-
 </style>
