@@ -57,6 +57,9 @@ export default {
 /* Skills css */
 .section-content-grid {
   margin-bottom: 25px;
+  width: 60%;
+  margin-right: 5%;
+  margin-left: 20%;
 }
 
 .grid-item {
